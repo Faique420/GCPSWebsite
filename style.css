@@ -64,7 +64,7 @@ button{ font-family: inherit; cursor: pointer; }
 
 .eyebrow{
   font-family: var(--font-mono);
-  font-size: 12.5px;
+  font-size: 13.5px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ button{ font-family: inherit; cursor: pointer; }
 .card-label{
   display: block;
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ button{ font-family: inherit; cursor: pointer; }
   margin-bottom: 14px;
 }
 
-.section-lead{ max-width: 60ch; color: var(--ink-soft); font-size: 17px; }
+.section-lead{ max-width: 60ch; color: var(--ink-soft); font-size: 18px; }
 
 /* ---------- buttons ---------- */
 .btn{
@@ -131,7 +131,7 @@ button{ font-family: inherit; cursor: pointer; }
 
 .site-nav{ display: flex; gap: 32px; }
 .site-nav a{
-  font-family: var(--font-mono); font-size: 13.5px; font-weight: 500;
+  font-family: var(--font-mono); font-size: 14.5px; font-weight: 500;
   letter-spacing: 0.02em; color: var(--ink-soft);
   position: relative; padding: 4px 0;
 }
@@ -274,7 +274,7 @@ h2{ font-size: clamp(28px, 3.4vw, 40px); max-width: 18ch; }
 .commitment-list{ display: flex; flex-direction: column; gap: 0; border-top: 1px solid rgba(255,255,255,0.18); }
 .commitment-list li{
   padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.18);
-  font-family: var(--font-mono); font-size: 15px; letter-spacing: 0.01em;
+  font-family: var(--font-mono); font-size: 16px; letter-spacing: 0.01em;
   display: flex; align-items: center; gap: 12px;
 }
 .commitment-list li::before{ content: "\2713"; color: var(--tape-yellow); font-weight: 700; }
