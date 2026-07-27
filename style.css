@@ -165,7 +165,24 @@ button{ font-family: inherit; cursor: pointer; }
   background-position: center;
   background-repeat: no-repeat;
 }
+.hero .eyebrow{ color: var(--tape-yellow); }
+.hero-inner{
+  display: grid; grid-template-columns: 1.2fr 0.8fr; align-items: center; gap: 40px;
+  padding-bottom: 64px;
+}
+.hero h1{
+  font-size: clamp(40px, 6vw, 68px);
+  margin-bottom: 24px;
+}
+.hero-lead{ font-size: 18px; color: #D8DCD4; max-width: 46ch; }
+.hero-actions{ display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
 
+.hero-stamp{ display: flex; justify-content: center; align-items: center; }
+
+@keyframes stamp-press{
+  0%{ transform: scale(1.5) rotate(-8deg); opacity: 0; }
+  100%{ transform: scale(1) rotate(-8deg); opacity: 1; }
+}
 .coverage-strip{ background: var(--ink); color: var(--paper); }
 .coverage-inner{
   display: flex; flex-wrap: wrap; gap: 18px 40px; align-items: baseline;
