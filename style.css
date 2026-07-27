@@ -174,9 +174,6 @@ button{ font-family: inherit; cursor: pointer; }
   font-size: clamp(40px, 6vw, 68px);
   margin-bottom: 24px;
 }
-.hero-lead{ font-size: 18px; color: #D8DCD4; max-width: 46ch; }
-.hero-actions{ display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
-
 
 .coverage-strip{ background: var(--ink); color: var(--paper); }
 .coverage-inner{
